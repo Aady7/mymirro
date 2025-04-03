@@ -10,9 +10,4 @@ app.include_router(product_router, prefix="/products", tags=["Products"])
 
 
 async def root():
-   try:
-      db.command("ping")
-      return {"message": "MongoDB is connected"}
-   except Exception as e:
-        return {"message": "MongoDB is not connected", "error": str(e)}
-       
+   return {"message": "Welcome to MyMirro API Visit /docs for API documentation"}
