@@ -2,8 +2,11 @@ MyMirro - Fashion Recommendation Platform (Backend)
 🚀 Backend API for MyMirro, a fashion recommendation platform. This backend is built using FastAPI and MongoDB.
 Features
 ✅ User Authentication (Login, Register)
+
 ✅ Product Management (Add, Retrieve, Prevent Duplicates)
+
 ✅ Fashion Recommendation System (Coming Soon)
+
 ✅ Secure MongoDB Integration
 
  Tech Stack
